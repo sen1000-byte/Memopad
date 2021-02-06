@@ -15,6 +15,7 @@
 		33444A5025CE7AA500F8B959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33444A4E25CE7AA500F8B959 /* LaunchScreen.storyboard */; };
 		33444A5B25CE7AA500F8B959 /* MemopadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444A5A25CE7AA500F8B959 /* MemopadTests.swift */; };
 		33444A6625CE7AA600F8B959 /* MemopadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444A6525CE7AA600F8B959 /* MemopadUITests.swift */; };
+		33444A7725CE7AD900F8B959 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33444A7625CE7AD900F8B959 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		33444A6125CE7AA600F8B959 /* MemopadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemopadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33444A6525CE7AA600F8B959 /* MemopadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemopadUITests.swift; sourceTree = "<group>"; };
 		33444A6725CE7AA600F8B959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33444A7625CE7AD900F8B959 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				33444A4C25CE7AA500F8B959 /* Assets.xcassets */,
 				33444A4E25CE7AA500F8B959 /* LaunchScreen.storyboard */,
 				33444A5125CE7AA500F8B959 /* Info.plist */,
+				33444A7625CE7AD900F8B959 /* MemoViewController.swift */,
 			);
 			path = Memopad;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33444A7725CE7AD900F8B959 /* MemoViewController.swift in Sources */,
 				33444A4825CE7AA100F8B959 /* ViewController.swift in Sources */,
 				33444A4425CE7AA100F8B959 /* AppDelegate.swift in Sources */,
 				33444A4625CE7AA100F8B959 /* SceneDelegate.swift in Sources */,
